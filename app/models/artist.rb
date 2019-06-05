@@ -16,6 +16,6 @@ class Artist < ActiveRecord::Base
     #return the number of genres associated with the artist
     binding.pry
     self.songs.genres
-  
+
   end
 end
